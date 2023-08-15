@@ -19,7 +19,7 @@
             }
 
             Console.WriteLine(Environment.NewLine + "Union: ");
-            var allDrinks = drinks1.Union(drinks2); //объединение двух списков. дубли удалятся. drinks2 добавился осле drinks1
+            var allDrinks = drinks1.Union(drinks2); //объединение двух списков. дубли удалятся. drinks2 добавился после drinks1
             foreach (var item in allDrinks)
             {
                 Console.Write(item + " "); //вывод: Кока-Кола Cок Молоко Минералка Сидр Виски Коньяк
